@@ -1,0 +1,1 @@
+arm-none-eabi-gcc -mcpu=cortex-m33 -mthumb -ffunction-sections -fdata-sections -O2 -g -nostartfiles -ffreestanding -T /home/piotr-kaminski/dev/git/rpi2350/ld-test/linker/ldscript.ld CMakeFiles/firmware.elf.dir/src/main.c.o -o firmware.elf 
